@@ -86,6 +86,7 @@ function setCableModel(id, texName){
     BlockRenderer.setStaticICRender(id, -1, render);
     BlockRenderer.setCustomCollisionShape(id, -1, shape);
     ItemModel.getFor(id, -1).setModel(icon);
+    Block.setShape(id, 5/16, 5/16, 5/16, 11/16, 11/16, 11/16);
     group.add(id, -1);
 
 }
